@@ -119,7 +119,7 @@ def run_pairs(ticker_one, ticker_two, period = '4y'):
     #This is a separate display of profit and loss
     # Display the summary
     print("\n" + '=' * 59)
-    print("Summary:")
+    print("Summary:".center(59)
     print("=" * 59)
     total_Profit = df["Profit"].sum()
     avg_Profit = df["Profit%"].mean()
